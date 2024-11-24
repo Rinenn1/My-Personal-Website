@@ -105,4 +105,26 @@ button:hover {
     border-radius: 20px;
 }
 
-
+.projects {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 5%;
+ }
+ 
+ 
+ proj {
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ 
+ .proj img{
+    border-radius: 10px;
+ }
+ 
+ 
+ .projects .proj p{
+    max-width: 500px;
+ }
+ 
