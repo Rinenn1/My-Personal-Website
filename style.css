@@ -159,4 +159,27 @@ button:hover {
     padding: 0.5%;
     border-radius: 8px;
  }
+
+ .contact{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 4%;
+ }
+ 
+ 
+ .contact h2{
+    font-size: 40px;
+    text-align: center;
+ }
+ .contact p{
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+ }
+ 
+ 
+ .contact form{
+    display: flex;
+    flex-direction: column;
+ }
  
