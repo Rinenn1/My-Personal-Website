@@ -128,3 +128,35 @@ button:hover {
     max-width: 500px;
  }
  
+ .skills{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 2%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    gap: 1%;
+ }
+ 
+ 
+ .skills .html{
+    background-color: #3586ff;
+    padding: 0.5%;
+    border-radius: 8px;
+ }
+ 
+ 
+ .skills .css{
+    background-color: #3586ff;
+    padding: 0.5%;
+    border-radius: 8px;
+ }
+ 
+ 
+ .skills .java{
+    background-color: #3586ff;
+    padding: 0.5%;
+    border-radius: 8px;
+ }
+ 
