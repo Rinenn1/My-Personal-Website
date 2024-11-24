@@ -207,3 +207,8 @@ button:hover {
     cursor: pointer;
   }
  
+  input[type=submit]:hover {
+    background-color: white;
+    color: #000;
+  }
+ 
