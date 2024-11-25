@@ -8,7 +8,7 @@ body{
 
 
 .navbar{
-    background-color: #2C2A8A;
+    background-color: #12172b;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -22,7 +22,6 @@ body{
     list-style: none;
     gap: 50px;
     justify-content: center;
-    margin-left: 650px;
 }
 
 .navbar ul li a{
@@ -141,16 +140,20 @@ button:hover {
  }
  
  
- proj {
+ .proj .info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
  }
+
+ .proj .button1{
+  padding: 3px;
+  width: 100%;
+}
  
  
  .proj img{
     border-radius: 10px;
- }
- 
+ } 
  
  .projects .proj p{
     max-width: 500px;
@@ -252,7 +255,7 @@ button:hover {
     margin-top: 10%;
     position: relative;
     width: auto;
-    background: #3586ff;
+    background: #12172b;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
