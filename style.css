@@ -107,6 +107,12 @@ button:hover {
     background-color: white;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+
 .about h1{
     margin-top: 70px;
     text-align: center;
@@ -122,8 +128,9 @@ button:hover {
     margin: 0;
 }
 
-.about .info img{
-    border-radius: 20px;
+.info .btn {
+  margin-left: 40%;
+  padding: 2%;
 }
 
 .projects {
