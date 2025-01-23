@@ -2,9 +2,6 @@
 
 #This is my first personal website creation.
 
-#Live link
-    https://rinenn1.github.io/My-Personal-Website/
-
 ## TECHNOLOGIES USED-
 **HTML**
 **CSS**
