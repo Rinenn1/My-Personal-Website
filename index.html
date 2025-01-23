@@ -3,159 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My website </title>
     <link rel="stylesheet" href="style.css">
-    <title>My Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
 </head>
 <body>
     
-    <div class="navbar">
-        <ul>
-            <li><a href="">Home</a></li>
+    <header class="header">
+        <div class="logo">
+            <h1><a href="#"><span>Rin</span>aldo</a></h1>
+        </div>
+
+        <div class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>      
-    </div>
-    
-    <div class="hero">
-        <div class="hero1">
-            <h1>Hey There! I am <span style="color: #FFD700;">Isaac</span></h1>
-            <h3>A Passionate Full Stack Software Developer</h3>
         </div>
-        <div class="hero2">
-            <img src="images/website.png">
-            <button class="btn">Explore My Work</button>
+
+        <div class="contact">
+            <a href="#">Contact Me</a>
         </div>
-    </div>
-    <br>
-    <hr width="800px" size="3px" color="black">
-    <div class="about">
-        <h1>ABOUT ME!</h1>
-        <div class="info">
-            <p>
-                I am a junior developer with experience in the professional field of over 2 months. I have completed projects in HTML, CSS, and JAVASCRIPT successfully with very satisfied customers. I excel in crafting either dynamic, responsive, casual, blunt, beautiful, and a mirage of styles in a record-breaking period. I promise the best work and results alike.
-                <br><br>
-                <button class="btn">Work With Me</button>
-            </p>
+    </header>
+
+    <section class="hero">
+        <div class="hero-intro">
+            <div class="hero-info">
+                <h1>Hi</h1p>
+
+                <h2>I'm <span>Rinaldo</span><br>  a Fullstack<br>  Developer</h2><br>
+
+                <p>
+                    I will bring your idea to life through code by turning your vision into a functional and polished reality. Whether it's a sleek website, a dynamic application, or a custom tool, I am dedicated to crafting a solution tailored to your needs. Let's collaborate to transform your concepts into something truly impactful!
+                </p> <br>
+
+                <button class="portfolio-btn">Download Portfolio
+                    <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
             
+            <img src="./images/IMG_8682.jpg" alt="profile picture" class="profile-pic">
         </div>
-    </div>
+    </section>
 
-    <hr width="auto" size="3px" color="black">
-
-    <div class="skills">
-        <h2>MY SKILLS</h2>
-       <div class="html">
-            <h3>Proficiency in HTML</h3>
-            <p>I have experience in over 114 HTML projects for 98 very satisfied clients.</p>
-        </div>
-        <div class="css">
-            <h3>Proficiency in CSS</h3>
-            <p>I excel in bringing life using interractive and responsive CSS building</p>
-        </div>
-        <div class="java">
-            <h3>Proficiency in JAVASCRIPT</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eius! Aperiam, harum?</p>
-        </div> 
-    </div>
-    
-
-    <hr width="auto" size="3px" color="black">
-
-    <div class="projects">
-        <div class="proj" class="proj1">
-            <div class="info">
-                <p>I built my website myself and I like to showcase it as one of my beloved designs</p>
-                <h3>My Website</h3>
-                <img src="images/Black And Gold Elegant Boutique Logo.png">
+    <section class="about">
+        <div class="about">
+            <div class="about-image">
+                <div>
+                    <h2 class="about-title">ABOUT <span>ME</span></h2>
+                </div>
+                <div>
+                    <img src="./images/IMG_8682.jpg" alt="Picture" class="profile-pic">
+                </div>
             </div>
-            <div class="button1">
-                <button class="btn">View</button>   
+            <div class="about-text">
+                <p class="about-info">
+                    I'm a passionate developer with a growing expertise in the tech industry, driven by a love for coding and problem-solving. With a solid foundation in functions, arrays, objects, and DOM manipulation, I enjoy creating real-world solutions that are both efficient and user-friendly. I thrive on exploring the endless possibilities of HTML, CSS, and JavaScript, especially diving into Node.js to build dynamic applications. Whether it's designing a sleek interface or tackling a complex challenge, I approach every project with curiosity and dedication. Always eager to learn and innovate, I aim to create impactful technology that makes life easier and more connected.
+                </p> <br>
+                <button class="hire-btn">Hire Me</button>
             </div>
+        </div>
+        
+    </section>
 
+    <section class="projects">
+        <div class="projects-title">
+            <h2 class="">MY SKILLS</h2>
+            <div class="projects-list">
+                
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /><br>
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+          
+          
+          
+            </div>
         </div>
-        <div class="proj" class="proj2">
-            <img src="images/Black And Gold Elegant Boutique Logo (1).png">
-            <h3>E-Commerce Website</h3>
-            <p>I built this e-commerce website for a product called "Illines".</p>
-            <br>
-            <button class="btn">View</button>
-        </div>
+        
+    </section>
 
-        <div class="proj" class="proj3">
-            <img src="images/Black And Gold Elegant Boutique Logo (2).png">
-            <h3>Real Estate Agency Website</h3>
-            <p>I biult thos website for a real estate agency back in 2023, helping them make upto $500000+ revenue in the following months</p><br>
-            <button class="btn">View</button>
+    <section class="contacts">
+        <div>
+            <h1>Contact Me</h1>
         </div>
-    </div>
- 
-    <div class="contact">
-        <h2>CONTACT ME</h2>
-        <hr width="800px" size="3px" color="black">
-        <p>Keep in touch! Enter your details and submit your message to me here</p>
-        <form>
-            <label for="fname">First Name</label>
-            <input type="text" class="fname" placeholder="Your name..">
-         
-            <label for="lname">Last Name</label>
-            <input type="text" class="lname" placeholder="Your last name..">
- 
- 
-            <label for="Email">Your Email</label>
-            <input type="text" class="email" placeholder="Write Your Email Here..">
- 
- 
-            <label for="message">Your Message</label>
-            <input type="text" class="message" placeholder="Write Your Message Here..">
-         
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+        <div class="form">
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Name...">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email...">
+                <label for="tel">Phone Number:</label>
+                <input type="tel" placeholder="Phone Number...">
+                <label for="message">Message:</label>
+                <input type="text" placeholder="Message...">
+                <br>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </section>
 
-    <footer class="footer">
-        <div class="waves">
-          <div class="wave" id="wave1"></div>
-          <div class="wave" id="wave2"></div>
-          <div class="wave" id="wave3"></div>
-          <div class="wave" id="wave4"></div>
-        </div>
-        <ul class="social-icon">
-            <li class="social-icon__item">
-                <a class="social-icon__link" href="#">
-                    <ion-icon name="logo-github"></ion-icon>
-                </a>
-            </li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a></li>
-        </ul>
-        <ul class="menu">
-          <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-   
-        </ul>
-        <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
-      </footer>
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   
-    <script src="script.js"></script>
- 
- 
-    </div>
- 
-    
+    <footer>
+        <p>&copy; 2025 COPYRIGHT PROPERTY OF ISAAC RINALDO</p>
+    </footer>
+
 </body>
 </html>
-
-
-
-

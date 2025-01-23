@@ -6,17 +6,14 @@
     https://rinenn1.github.io/My-Personal-Website/
 
 ## TECHNOLOGIES USED-
-    - Code edited by VS Code
-        -HTML
-        -CSS
-        -NO JAVASCRIPT
-        -EXTERNAL FOOTER DESIGN - Sourced from another website "https://codepen.io/vipenl26/pen/VwzqMge"
+**HTML**
+**CSS**
 
 ## How to set up the project locally
     **Fork the project from my github repository**
         1. Give it your own unique name according your liking.
         2. Leave every other setting as is.
-    **Click the green button that reads "Code"**
+    **Click the green button that reads "Code**
         3. copy the SSH link.
     **Go to your terminal and navigate to your folder where you want to place the file**;
         4. use the cd command and write the destination.
